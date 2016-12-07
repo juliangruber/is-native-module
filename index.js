@@ -1,7 +1,5 @@
 'use strict'
 
-module.exports = isNative
-
 const isNative = pkg =>
   pkg.dependencies && (
     pkg.dependencies.bindings ||
@@ -12,3 +10,4 @@ const isNative = pkg =>
   pkg.gypfile ||
   pkg.binary
 
+module.exports = isNative
