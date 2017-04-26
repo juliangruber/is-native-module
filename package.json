@@ -3,5 +3,8 @@
   "version": "1.0.1",
   "license": "MIT",
   "repository": "juliangruber/is-native-module",
-  "description": "Check if a node module contains native code"
+  "description": "Check if a node module contains native code",
+  "bin": {
+    "is-native-module": "bin.js"
+  }
 }
