@@ -6,5 +6,11 @@
   "description": "Check if a node module contains native code",
   "bin": {
     "is-native-module": "bin.js"
+  },
+  "scripts": {
+    "release": "np"
+  },
+  "devDependencies": {
+    "np": "^6.3.2"
   }
 }
