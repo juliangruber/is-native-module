@@ -11,6 +11,6 @@
     "release": "np"
   },
   "devDependencies": {
-    "np": "^6.3.2"
+    "np": "^11.0.0"
   }
 }
